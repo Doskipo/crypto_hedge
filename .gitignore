@@ -1,0 +1,21 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Datos crudos y procesados (Evita subir gigas a GitHub)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Archivos de entorno (contraseñas/API keys de Deribit)
+.env
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints
